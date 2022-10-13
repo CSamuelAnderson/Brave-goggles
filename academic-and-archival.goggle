@@ -14,8 +14,8 @@
 ! Discard other results until this is fully developed.
 $discard
 
-! 
-*.edu^$boost=2
+! Allow any .edu site 
+*.edu^
 
 ! Site allow-list 
 ! #########################################################
@@ -26,15 +26,15 @@ $site=wikibooks.org
 $site=commons.wikimedia.org
 $site=wikiversity.org
 $site=wikibooks.org
-$site=wikisource.org
+$site=wikisource.org$boost=3
 $site=wiktionary.org
 
 ! Allowed archives
 $site=archive.org
-$site=scaife.perseus.org
 
 ! Open source journals 
 $site=publicdomainreview.org
+$site=philpapers.org
 
 ! Allowed subreddits, downrank
 /r/AskHistorians/$downrank,site=reddit.com
@@ -49,11 +49,15 @@ $site=publicdomainreview.org
 ! #########################################################
 
 ! Classical archives
-$site=perseus.tufts.edu$boost=5
-$site=classics.mit.edu$boost=5
+$site=perseus.tufts.edu$boost=8
+$site=classics.mit.edu$boost=8
+$site=scaife.perseus.org$boost=8
 
 ! Philosophy archives
 $site=plato.stanford.edu$boost=5
 
+! Magazine archives
+$site=poetryfoundation.org/poetrymagazine$boost=5
+
 ! Library archives
-$site=library.si.edu
+$site=library.si.edu$boost=5
