@@ -32,7 +32,6 @@ $site=wiktionary.org
 ! Allowed archives
 $site=archive.org
 $site=scaife.perseus.org
-$site=
 
 ! Open source journals 
 $site=publicdomainreview.org
@@ -44,7 +43,7 @@ $site=publicdomainreview.org
 ! In-line boosts
 ! #########################################################
 *.pdf|$boost=5
-*syllabus*$boost=4
+*syllabus*$boost=3
 
 ! Specific website boosts
 ! #########################################################
@@ -55,3 +54,6 @@ $site=classics.mit.edu$boost=5
 
 ! Philosophy archives
 $site=plato.stanford.edu$boost=5
+
+! Library archives
+$site=library.si.edu
