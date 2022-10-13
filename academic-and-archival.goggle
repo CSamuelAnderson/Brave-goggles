@@ -1,7 +1,7 @@
 
 ! name: Academic and Archival 
 ! description: This goggle prioritizes academic research, followed by archives, journals, and other open source resources for primary and secondary sources
-! public: false
+! public: true
 ! author: CS Anderson
 
 ! Documentation
@@ -64,6 +64,10 @@ $site=poetryfoundation.org/poetrymagazine$boost=5
 $site=library.si.edu$boost=5
 $site=nypl.org
 $site=parismuseescollections.paris.fr
+$site=library.stanford.edu
+
+! Academic sites
+$site=britannica.com
 
 ! Specific website downranks 
 ! #########################################################
