@@ -4,7 +4,28 @@
 ! public: false
 ! author: CS Anderson
 
+! Documentation
+! #########################################################
+! 
+
+! GLOBAL MAPS
+! #########################################################
+
 ! Discard other results until this is fully developed.
 $discard
 
-*.edu$boost
+! 
+*.edu$boost=3
+
+! Website allow-list 
+! #########################################################
+
+! Allow from wikimedia project
+$site=wikipedia.org
+$site=wikibooks.org
+$site=commons.wikimedia.org
+$site=wikiversity.org
+$site=wikibooks.org
+$site=wikisource.org
+$site=wiktionary.org
+
