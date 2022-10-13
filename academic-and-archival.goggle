@@ -8,19 +8,19 @@
 ! #########################################################
 ! 
 
-! GLOBAL MAPS
+! Global Rank 
 ! #########################################################
 
 ! Discard other results until this is fully developed.
 $discard
 
 ! 
-*.edu$boost=3
+*.edu^$boost=2
 
-! Website allow-list 
+! Site allow-list 
 ! #########################################################
 
-! Allow from wikimedia project
+! Wikimedia project
 $site=wikipedia.org
 $site=wikibooks.org
 $site=commons.wikimedia.org
@@ -29,3 +29,29 @@ $site=wikibooks.org
 $site=wikisource.org
 $site=wiktionary.org
 
+! Allowed archives
+$site=archive.org
+$site=scaife.perseus.org
+$site=
+
+! Open source journals 
+$site=publicdomainreview.org
+
+! Allowed subreddits, downrank
+/r/AskHistorians/$downrank,site=reddit.com
+/r/askphilosophy$downrank,site=reddit.com
+
+! In-line boosts
+! #########################################################
+*.pdf|$boost=5
+*syllabus*$boost=4
+
+! Specific website boosts
+! #########################################################
+
+! Classical archives
+$site=perseus.tufts.edu$boost=5
+$site=classics.mit.edu$boost=5
+
+! Philosophy archives
+$site=plato.stanford.edu$boost=5
