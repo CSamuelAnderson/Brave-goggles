@@ -1,0 +1,10 @@
+
+! name: Academic and Archival 
+! description: This goggle prioritizes academic research, followed by archives, journals, and other open source resources for primary and secondary sources
+! public: false
+! author: CS Anderson
+
+! Discard other results until this is fully developed.
+$discard
+
+*.edu$boost
