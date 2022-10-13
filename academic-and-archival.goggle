@@ -52,6 +52,7 @@ $site=philpapers.org
 $site=perseus.tufts.edu$boost=8
 $site=classics.mit.edu$boost=8
 $site=scaife.perseus.org$boost=8
+$site=sententiaeantiquae.com
 
 ! Philosophy archives
 $site=plato.stanford.edu$boost=5
@@ -61,3 +62,9 @@ $site=poetryfoundation.org/poetrymagazine$boost=5
 
 ! Library archives
 $site=library.si.edu$boost=5
+$site=nypl.org
+$site=parismuseescollections.paris.fr
+
+! Specific website downranks 
+! #########################################################
+$site=academia.edu$downrank
